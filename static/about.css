@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1385px;
+    background: #6650F2;
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+}
+
+.navegador{
+    width: 100%;
+    position: fixed;
+
+}
+
+.barra{
+    height: 100px;
+    position: relative;
+    background: #9E91F2;
+    justify-content: space-between;
+
+}
+
+.barra a{
+  
+    display: flex;
+  
+    
+
+}
+
+
+
+.inicio{
+    /* Inicio */
+
+position: absolute;
+width: 65px;
+height: 19px;
+left: 200px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.sobre-nosotros{
+    /* Acerca de nosotros */
+
+position: absolute;
+width: 161px;
+height: 25px;
+left: 400px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.donacion{
+    /* Contribuye a nuestro proyecto */
+
+position: absolute;
+width: 253px;
+height: 18px;
+left: 710px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.contacto{
+    /* Contactanos */
+
+position: absolute;
+width: 119px;
+height: 23px;
+left: 1100px;
+top: 40px;
+
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+
+
+
+
+/* .nino{
+  
+
+position: fixed;
+width: 461px;
+height: 423px;
+left: 40px;
+top: 88px;
+
+
+} */
+
+.nino2{
+   /* mons 1 */
+
+position: fixed;
+width: 634px;
+height: 423px;
+left: 40px;
+top: 180px;
+
+
+
+}
+
+/* .parrafo{
+    
+
+width: 249px;
+height: 215px;
+left: 750;
+top: 150;
+
+} */
+
+
+.quienes{
+    position: fixed;
+    width: 436px;
+    height: 479px;
+    left: 750px;
+    top: 150px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    
+    color: #EBEEF2;
+    }
+
+
+
+.parrafo2{
+/* Quienes somos. Somos una fundación sin animo de lucro de la ciudad de Medellín, llevamos mas de 10 años trabajando junto a personas de escasos recursos ayudándoles con su lucha contra el cáncer, ademas hemos ayudado a mas de 1300 personas, uno de nuestros principales objetivos es servir al desfavorecido y ayudar a todas las personas y familias a ganar una batalla que si tiene solución, puedes apoyar nuestra causa con donaciones y servicio voluntario. */
+
+position: fixed;
+width: 436px;
+height: 479px;
+left: 750px;
+top: 200px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 14px;
+line-height: 28px;
+
+color: #EBEEF2;
+
+
+
+
+
+}
+
+.siguenos{
+position: fixed;
+width: 436px;
+height: 479px;
+left: 750px;
+top: 430px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 28px;
+
+color: #EBEEF2;
+}
+
+
+/* .redes
+{
+position: fixed;
+width: 436px;
+height: 479px;
+left: 750px;
+top: 530px;
+
+
+} */
+
+.icono1{
+position: fixed;
+width: 43px;
+height: 43px;
+left: 750px;
+top: 530px;
+}
+
+.icono2{
+
+position: fixed;
+width: 43px;
+height: 43px;
+left: 850px;
+top: 530px;
+
+}
+
+.icono3{
+
+
+    position: fixed;
+    width: 43px;
+    height: 43px;
+    left: 950px;
+    top: 530px;
+        
+        
+}
+
+.icono4{
+    
+    position: fixed;
+    width: 43px;
+    height: 43px;
+    left: 1050px;
+    top: 530px;
+}
+
+
+.cuadro2{
+    position: fixed;
+    left: 1050;
+    top:500px;
+}

@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1385px;
+    background: #191B40;
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+}
+
+.navegador{
+    width: 100%;
+    position: fixed;
+
+}
+
+.barra{
+    height: 100px;
+    position: relative;
+    background: #9E91F2;
+    justify-content: space-between;
+
+}
+
+.barra a{
+  
+    display: flex;
+  
+    
+
+}
+
+
+
+.inicio{
+    /* Inicio */
+
+position: absolute;
+width: 65px;
+height: 19px;
+left: 200px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.sobre-nosotros{
+    /* Acerca de nosotros */
+
+position: absolute;
+width: 161px;
+height: 25px;
+left: 400px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.donacion{
+    /* Contribuye a nuestro proyecto */
+
+position: absolute;
+width: 253px;
+height: 18px;
+left: 710px;
+top: 40px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.contacto{
+    /* Contactanos */
+
+position: absolute;
+width: 119px;
+height: 23px;
+left: 1100px;
+top: 40px;
+
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.manos{
+    /* Manos 1 */
+position: inherit;
+width: 1385px;
+height: 700px;
+left: -20px;
+top: 500px;
+
+
+}
+
+.contribuye{
+   
+position: fixed;
+width: 383px;
+height: 187px;
+left: 50px;
+top: 150px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.parrafo3{
+   
+    position: fixed;
+    width: 383px;
+    height: 187px;
+    left: 50px;
+    top: 200px;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    
+    color: #EBEEF2;
+    
+    
+    }
+
+/* .icon{
+position: fixed;
+width: 98px;
+height: 80px;
+left: 600px;
+top:430px;
+} */
+
+.clic{
+    /* Haz clic aquí para hacer tu donación */
+
+position: absolute;
+width: 407px;
+height: 73px;
+left: 750px;
+top: 500px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+text-align: center;
+
+color: #EBEEF2;
+
+
+}
+
+.corazon{
+    position: absolute;
+width: 55px;
+height: 47px;
+left: 920px;
+top: 550px;
+
+
+}
+
+.corazon{
+ 
+        color: red;
+        font-size: 50px;
+        animation: heart-pulse 2s infinite ease-out;}
+    
+      
+      @keyframes heart-pulse {
+        0% {
+          transform: scale(0); /* scaling to 0 */
+        }
+        50% {
+          transform: scale(1.5); /* increasing the size */
+        }
+        70% {
+          transform: scale(1.2); /* decreasing the size */
+        }
+        100% {
+          transform: scale(0); /* seeting back to initial size */
+        }
+      }
+
+

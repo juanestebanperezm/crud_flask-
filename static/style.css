@@ -1,0 +1,252 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 1000px;
+    background: #191b40;
+
+}
+
+header{
+    width: 100%;
+    height: 600px;
+}
+
+.navegador{
+    width: 100%;
+    position: fixed;
+
+}
+
+.barra{
+    height: 110px;
+    position: relative;
+    background: #9E91F2;
+    justify-content: space-between;
+
+}
+
+.barra a{
+  
+    display: flex;
+  
+    
+
+}
+
+
+
+.inicio{
+    /* Inicio */
+
+position: absolute;
+width: 65px;
+height: 19px;
+left: 300px;
+top: 47px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.sobre-nosotros{
+    /* Acerca de nosotros */
+
+position: absolute;
+width: 161px;
+height: 25px;
+left: 550px;
+top: 45px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.donacion{
+    /* Contribuye a nuestro proyecto */
+
+position: absolute;
+width: 253px;
+height: 18px;
+left: 850px;
+top: 44px;
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+.contacto{
+    /* Contactanos */
+
+position: absolute;
+width: 119px;
+height: 23px;
+left: 1250px;
+top: 44px;
+
+text-decoration: none;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 18px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+
+
+.icono{
+position: absolute;
+width: 175px;
+height: 160px;
+left: 1230px;
+
+}
+
+.logo{
+    /* Recurso 2 1 */
+
+position: absolute;
+width: 140px;
+height: 115px;
+left: 150px;
+top: 240px;
+
+
+
+}
+/* 
+.imagen{
+    
+
+
+width: 1120px;
+height: 750px;
+}
+ */
+
+
+.mujer{
+
+position: fixed;
+width: 1120px;
+height: 750px;
+left: 250px;
+top: 110px;
+}
+
+
+.frase{
+
+    position: absolute;
+    width: 413px;
+    height: 204px;
+    left: 60px;
+    top: 591px;
+    color: #EBEEF2;
+    
+
+}
+
+.bienvenido{
+    /* Bienvenido */
+
+position: absolute;
+width: 92px;
+height: 21px;
+left: 1px;
+top: -30px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 21px;
+/* identical to box height */
+
+color: #EBEEF2;
+
+
+}
+
+.p{
+/* somos la fundación florecer, Ayudamos a personas de bajos recursos en su lucha contra el cáncer. llevamos mas de 10 años trabajando para que muchas personas y familias ganen esta batalla, si deseas saber mas sobre nosotros puedes visitarnos, estamos ubicados en xxxxxx-xxxxx. */
+
+position: absolute;
+width: 290px;
+height: 168px;
+left: 34px;
+top: 402px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 16px;
+
+color: #EBEEF2;
+
+
+
+
+}
+
+.motivadora{
+    /* Alimenta tu fe y tus miedos se morirán de hambre */
+
+position: absolute;
+width: 213px;
+height: 96px;
+left: 60px;
+top: 256px;
+
+
+
+
+}
+
+.miedos{
+/* Alimenta tu fe y tus miedos se morirán de hambre */
+
+
+
+font-family: Roboto;
+font-style: normal;
+font-weight: 500;
+font-size: 24px;
+line-height: 21px;
+
+color: #EBEEF2;
+
+
+}
+
+
